@@ -163,3 +163,21 @@ h4, h5, h6 {
     color: #004085;
     border: 1px solid #b8daff;
 }
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
